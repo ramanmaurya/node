@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Json Intro</title>
+    <script>
+        var persons =[ 
+            {
+                name: "Nugen",
+                services: ["IT","Hosting","AWS"],
+                age: 7
+            },
+            {
+                name: "Varun",
+                services: ["IT","Hosting","AWS"],
+                age: 28
+            },
+            {
+                name: "Mohit",
+                services: ["IT","Hosting","AWS"],
+                age: 70
+            }
+        ];
+
+        // console.log(persons[2].name);
+
+            persons.forEach(function(v,k){
+                if(typeof v.services == 'object')
+                {
+                    v.services.forEach(function(service,index){
+                        console.log((index + 1) + " Service of " + v.name + " is "+ service);
+                    });
+                    console.log("\n");
+                }
+                // console.log("Name of person is " + v.name);
+            });
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

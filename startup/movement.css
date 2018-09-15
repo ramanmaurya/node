@@ -1,0 +1,129 @@
+div{
+    position: absolute;
+}
+.container{
+    height: 450px;
+    width: 400px;
+    border: 0px  white; 
+    margin-top: 310px;
+    margin-left: 400px;
+    -webkit-animation: container 45s infinite ease-in-out;
+}
+.head{
+    height: 75px;
+    width: 75px;
+    border-radius:50px;
+    background: coral;
+    margin-left: 150px;
+    margin-top: 30px;
+
+}
+
+
+.left-eyes{
+    height: 10px;
+    width: 10px;
+    border-radius:25px;
+    background:white; 
+    top: 45%;
+    right: 15%;
+}
+.backbone{
+    height: 200px;
+    width: 65px;
+    background: coral;
+    border-radius:100%;
+    margin-left: 145px;
+    margin-top: 100px;
+    border: 2px solid coral;
+}
+.right-hand{
+    width: 18px;
+    height: 140px;
+    background:coral;
+     transform:rotate(-55deg);
+     top: 35%;
+     right:50%;
+     border-radius: 100%;
+
+}
+/*.leg1{ 
+    width: 35px;
+    height: 12px;
+    background: coral;
+     transform:rotate(-60deg);
+     top: 88.4%;
+     left: 33.4%;
+
+}
+
+.leg2{
+    width: 35px;
+    height: 12px;
+    background: coral;
+       top: 88.4%;
+     right: 42.4%;
+    transform:rotate(60deg);
+    
+
+}*/
+.left-hand{
+width: 18px;
+    height: 140px;
+    background:coral;
+     transform:rotate(55deg);
+     top: 35%;
+     left: 37%;
+     border-radius: 100%;
+
+}
+
+.right-leg{
+    width: 20px;
+    height: 130px;
+    background: coral;
+    transform:rotate(30deg);
+    border-radius: 100%;
+     top: 63%;
+     left: 42%;
+}
+.left-leg{
+    width: 20px;
+    height: 130px;
+    background: coral;
+    transform:rotate(-30deg);
+    border-radius: 100%;
+     top: 63%;
+     right: 52%;
+}
+
+.left-leg,.right-hand,.leg1{
+    -webkit-transform-origin: 0 0;
+    -webkit-animation: movement1 2s alternate infinite ease-in-out;
+}
+.left-hand,.right-leg,.leg2{
+        -webkit-transform-origin: 0 0;
+    -webkit-animation: movement2 2s alternate infinite ease-in-out;
+}
+@-webkit-keyframes movement1{
+    from{
+        -webkit-transform:rotate(30deg);
+    }
+   to{
+       -webkit-transform:rotate(-30deg);
+   } 
+}
+@-webkit-keyframes movement2{
+    from{
+        -webkit-transform:rotate(-30deg);
+    }
+   to{
+       -webkit-transform:rotate(30deg);
+   } 
+}
+@-webkit-keyframes container{
+    from{margin-left:30px;}
+    to{margin-left:1000px; }
+}
+
+

@@ -1,0 +1,30 @@
+.row{
+    width:100%;
+    height: auto;
+    clear:both;
+}
+.wrapper{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.logo{
+    width:300px;
+    height:50px;
+    float:left;
+    background:#000;
+}
+.menu_container{
+    width:700px;
+    height:50px;
+    float:right;
+    background:#000;
+}
+.menu{
+    float:left;
+    color:#fff;
+    width:150px;
+    text-align: center;
+    background:#f88;
+    padding:16px 0px;
+}

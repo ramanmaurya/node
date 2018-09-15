@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exception Handling in javascript</title>
+    <script>
+        function addUser()
+        {
+            try
+            {
+                var username = document.getElementById("username").value;
+                var elem = "<p>" + username + "</p>";
+                // elem = elem + username;
+                // elem = elem + "</p>"; 
+                document.getElementById("fill").innerHTML = elem;
+            }catch(ex)
+            {
+                console.log("Error while fetching username");   
+            }
+        }
+    </script>
+    <style>
+        #fill
+        {
+            width:500px;
+            height: auto;
+            box-shadow:0px 0px 5px #888;
+            position: fixed;
+            right:0;
+            top:5%;
+            padding:0.2em;
+        }
+    </style>
+</head>
+<body>
+    <div id="fill"></div>
+    <input type="text" id="username"> <br>
+    <button onclick="addUser()">Add User</button>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.box{
+    width:150px;
+    height:150px;
+    /* background:#000; */
+    border:10px dashed #000;
+    border-radius:50%;
+    animation:moveTyre 6s linear infinite;
+   /* -webkit-animation: box 45s infinite ease-in-out;*/
+}
+@keyframes moveTyre{
+    0%{
+        margin-left:0;
+    }
+    41%{
+        background:#f88;
+    }
+    100%{
+        /* margin-left:100%;         */
+        /* border-style:dotted; */
+        transform:rotate(360deg);
+    }
+   /* 100%{
+        transform:rotate(360deg);
+        margin-left:0%;        
+    }*/
+        from{
+        margin-left: 30px; 
+    }
+    to{
+        margin-left: 1300PX;
+    }
+}
+

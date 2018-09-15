@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>css grid</title>
+    </head>
+    <link rel="stylesheet" href="cssgrid.css">
+    <script>
+        function openslide(){
+            document.getElementById('side-menu').style.width='250px';
+
+        }
+        function closeslide() {
+                document.getElementById('side-menu').style.width ='';
+
+            }
+    </script>
+
+   
+    <body>
+       
+
+        <nav class="navbar">
+            <span class="openslide">
+                <a href="#" onclick="openslide()">
+            <svg width="30" height="30">
+                <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+        </a>
+            </svg>
+            </span>
+            <ul class="nav-bar">
+                <li><a href="#">home</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">help</a></li>
+        </ul>
+        </nav>
+        <div id="side-menu" class="side-nav">
+                <a href="#"  class="close-btn" onclick="closeslide()">&times;</a>    
+                <a href="#">home</a>
+                <a href="#">service</a>
+                <a href="#">contact</a>
+                <a href="#">about</a>
+                <a href="#">help</a>
+
+        </div>
+     
+
+         <div id="wrapper">
+                <div class="box1">box1</div>
+                <div class="box2">box2</div>
+                <div class="box3">box3</div>
+                <div class="box4">box4</div>
+                <div class="box5">box5</div>
+                <div class="box6">box6</div>
+                <div class="box7">box7</div>
+            <div >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nesciunt, dignissimos similique eligendi animi quibusdam quo nobis ab rerum nihil vero sequi eveniet non, nam saepe illo accusamus possimus voluptatem perferendis, voluptate voluptates quis eos officiis. Cupiditate ipsam quos tempore eius, minima cum itaque, vero quidem quas illum quaerat eos beatae earum consequuntur eaque repudiandae laudantium!
+            </div>
+            <div>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis molestias ea quae repudiandae illum. Reprehenderit molestiae autem in atque numquam nulla omnis saepe adipisci libero dicta ea, cum necessitatibus doloribus placeat sit optio mollitia!
+            </div>
+            <div>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis molestias ea quae repudiandae illum. Reprehenderit molestiae
+                autem in atque numquam nulla omnis saepe adipisci libero dicta ea, cum necessitatibus doloribus placeat sit
+                optio mollitia!
+            </div>
+            <div>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis molestias ea quae repudiandae illum. Reprehenderit molestiae
+                autem in atque numquam nulla omnis saepe adipisci libero dicta ea, cum necessitatibus doloribus placeat sit
+                optio mollitia!
+            </div>
+            
+        </div>
+    </body>
+</html>

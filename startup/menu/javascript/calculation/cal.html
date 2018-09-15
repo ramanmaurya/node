@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <meat charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="cal.css">
+        <script type="text/javascript">
+        function mathdata(val){
+            document.getElementById("display").value +=val;
+        }
+       
+        function cleardata(){
+        document.getElementById("display").value="";
+              }
+        function back(){
+        display.pop();
+        }
+      
+        </script>
+        <title>calculator</title>
+    </head>
+    <body>
+        <div class="nbrsdisplay" >
+ <input type="text" size="25" id="display" placeholder="0"  style="text-align:right">
+ <div class="keys">
+   
+<p> 
+    <input type="button" class="button" value="9" onclick='mathdata("9")'>
+    <input type="button" class="button" value="8" onclick='mathdata("8")'>
+     <input type="button" class="button" value="7" onclick='mathdata("7")'>
+    <input type="button" class="button" value="-"  onclick='mathdata("-")'>
+  </p> 
+<p><input type="button" class="button" value="6" onclick='mathdata("6")'>
+    <input type="button" class="button" value="5" onclick='mathdata("5")'>
+    <input type="button" class="button" value="4"  onclick='mathdata("4")'>
+        <input type="button" class="button" value="+" onclick='mathdata("+")'>
+
+</p>
+<p><input type="button" class="button" value="3" onclick='mathdata("3")'>
+    <input type="button" class="button" value="2" onclick='mathdata("2")'>
+    <input type="button" class="button" value="1" onclick='mathdata("1")'>
+     <input type="button" class="button" value="/" onclick='mathdata("/")'>
+</p>
+<p><input type="button" class="button" size="14px" value="backspace" onclick='back()'>
+    <input type="button" class="button" value="0" onclick='mathdata("0")'>
+     <input type="button" class="button" value="C" onclick='cleardata()'>
+    <input type="button" class="button" value="." onclick='mathdata(".")'>
+
+</p>
+    <input type="button" class="button" value="*" onclick='mathdata("*")'>
+   <input type="button" class="button" value="(" onclick='mathdata("(")'>
+    <input type="button" class="button" value=")" onclick='mathdata(")")'>
+    <input type="button" class="button" value="=" onclick='display.value=eval(display.value)'>
+        <!-- <input type="button" class="button" value="=" onclick='evaluate("display.value=eval(display.value)")'> -->
+
+
+
+
+    
+</p>
+</div>
+ </div>
+        
+    </body>
+</html>

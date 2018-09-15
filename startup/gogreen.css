@@ -1,0 +1,47 @@
+.container{
+    width: 100%;
+    height: 100%;
+
+}
+.home{
+    background:url('one.jpg');
+    background-attachment: fixed;
+     top: 0%;
+}
+.about{
+    background: url('two.jpg');
+    background-attachment: fixed;
+    top: 100%;
+
+}
+
+.Gallery{
+    background: url('four.jpg');
+    background-attachment: fixed;
+    top: 200%;
+}
+.video{
+    background:url('three.jpg');
+    background-attachment: fixed;
+    top: 300%;
+}
+.button{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+
+}
+.button h1{
+    width: 100%;
+    height: 30px;
+     text-align: center;
+    background: rgba(00, 00, 00,0.5);
+    font-size: 100px;
+    color: black;
+    text-transform: uppercase;
+    position: absolute;
+    top: 30px;
+    padding: 40px;
+
+}

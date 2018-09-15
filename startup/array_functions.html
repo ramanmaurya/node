@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Array Functions in javascript</title>
+    <script>
+        var languages = ["Python","Java","Ruby on Rails"];
+        var str = languages.join("**"); /* array to string */
+        var new_array = str.split("**"); /* string to array */
+        languages.push("Jquery");
+        languages.unshift("Angular 4");
+        languages.pop();
+        languages.shift();
+        var item_rates = [200,450,540,650,850];
+        item_rates = item_rates.map(function(v){
+            return v += 10;
+        })
+        console.log(item_rates);
+        console.log(languages);
+        // splice();
+        // slice();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

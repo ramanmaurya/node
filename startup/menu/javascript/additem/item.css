@@ -1,0 +1,22 @@
+.form {
+    padding: 30px;
+    height: 100px;
+    width: 50%;
+    border: 3px solid black;
+    font-size: 16px;
+}
+
+
+#cart {
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid black;
+    background: #DFD0D0;
+    width:50%; 
+    color: black;  
+}
+th,td,tr{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 16px;
+}

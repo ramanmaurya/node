@@ -1,0 +1,38 @@
+ul{
+    list-style-type: none;
+    margin-right: 0;
+    padding: 0;
+}
+.navbar ul{
+    list-style-type: none;
+    margin-right: 0;
+    padding: 0;
+}
+.navbar li{
+    background: #00f;
+    width: 250;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: left;
+    transition-delay: 0.25s ease-out 0s;
+
+
+}
+
+.navbar li ul{
+    display: none;
+}
+.navbar li:hover>ul{
+    display: block;
+}
+.navbar li:hover{
+
+   background:white;
+    cursor: pointer;
+    color: black;
+    padding-top: 15px;
+}
+
+   

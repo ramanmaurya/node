@@ -1,0 +1,74 @@
+.container{
+    height:80%;
+    width: 30%;
+ /* background:url('three.jpg');*/
+ background: white;
+    position: absolute;
+    top: 40px;
+    left: center;
+       }
+.container h1{ 
+    text-transform: uppercase;
+    text-align: center;
+font-size: 300%;
+ position: absolute;
+}
+.actor{
+    height: 70px;
+    width: 70px; 
+    border-radius: 50px;
+    background: gray;
+    margin-left:170px;
+    top: 15px;
+    left: 45px;
+     position: absolute;
+
+
+}
+.line{
+    width: 3px;
+    height:50px;
+    background: black;
+    margin-left: 205px;
+     position: absolute;
+     top: 20px;
+    left: 35px;
+}
+.line1{
+    width: 163%;
+    height: 3%;
+    background: black;
+    margin-left: 120px;
+     position: absolute;
+     top: 35px;
+    left: 15px;
+}
+.line2{
+    width: 3px;
+    height: 65px;
+    background: black;
+    margin-left: 205px;
+     position: absolute;
+     top: 18px;
+    left: 25px;
+}
+.line3{
+    width: 3px;
+    height: 85px;
+    background: black;
+    margin-left: 185px;
+    transform:rotate(25deg);
+     position: absolute;
+     top: 15px;
+    left: 25px;
+}
+.line4{
+    width: 3px;
+    height: 85px;
+    background: black;
+    margin-left: 10px;
+    transform:translate3d(3deg);
+     position: absolute;
+     top: 17px;
+    left: 40px;
+}

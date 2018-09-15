@@ -1,0 +1,24 @@
+.body {
+    background: #5a345a;
+}
+
+.button {
+    text-align: center;
+    width: 30px;
+    height: 20px;
+    margin-left: 12px;
+}
+
+.display input {
+    position: relative;
+    top: 1px;
+    text-align: center
+}
+
+.nbrsdisplay {
+    border: 1px solid black;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+}
