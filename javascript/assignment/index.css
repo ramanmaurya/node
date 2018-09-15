@@ -1,0 +1,33 @@
+nav {
+    background-color: black;
+    height: 30px;
+    color: white;
+}
+
+nav li {
+    list-style: none;
+    float: left;
+    margin-left: 150px;
+}
+
+.mianbody {
+    float: left;
+    height: 800px;
+    width: 100%;
+    background-color: blue;
+}
+a{
+    color: aliceblue;
+}
+
+footer {
+    background-color: blue;
+    height: 30px;
+}
+
+footer li {
+    margin: 10px;
+    float: left;
+    color: aliceblue'
+
+}
